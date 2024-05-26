@@ -6,9 +6,15 @@
 <img src="screenshots/Search Mode.png" alt="Search Results" width="170" height="300">
 <img src="screenshots/Selection Mode.png" alt="Selection Mode" width="170" height="300">
 
+## Improvents Made to the original Component (MyComponent)
 
+- Debounce Search Input to reduce the number of function calls which might be expensive
+- Implemented Selection and Deslection functionality
+- Implemented Clear functionality to clear the actual search term as well as the selected items
+- Improve filtering logic for the search results
+- Simple UI changes made for better user experience
 
-## Pre-requisites
+## Pre-requisites for Running React Native Project
 
 Node 10 or greater is required. Development for iOS requires a Mac and Xcode 9.4 or up, and will target iOS 9 and up.
 
