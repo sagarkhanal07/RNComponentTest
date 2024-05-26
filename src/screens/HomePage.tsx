@@ -2,7 +2,7 @@ import React from 'react';
 import { View } from 'react-native';
 
 import MyComponent from '../component/MyComponent';
-import MyComponentOld from '../component/MyComponentOld';
+// import MyComponentOld from '../component/MyComponentOld';
 import sampleData from '../sampleData.json';
 import APP_COLORS from '../theme/colors';
 
@@ -17,7 +17,7 @@ const HomePage = () => {
       }}
     >
       <MyComponent data={sampleData} />
-      <MyComponentOld data={sampleData} />
+      {/* <MyComponentOld data={sampleData} /> */}
     </View>
   );
 };
